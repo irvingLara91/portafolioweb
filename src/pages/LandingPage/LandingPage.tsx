@@ -26,16 +26,16 @@ const LandingPage = () => {
                     <img src={patter4} alt="Genz"/>
                 </div>
             </div>
-            <Box sx={{my: 2, color: 'white'}}>
-                {[...new Array(100)]
-                    .map(
-                        () => `Cras mattis consectetur purus sit amet fermentum.
-Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
-                    )
-                    .join('\n')}
-            </Box>
+{/*            <Box sx={{my: 2, color: 'white'}}>*/}
+{/*                {[...new Array(100)]*/}
+{/*                    .map(*/}
+{/*                        () => `Cras mattis consectetur purus sit amet fermentum.*/}
+{/*Cras justo odio, dapibus ac facilisis in, egestas eget quam.*/}
+{/*Morbi leo risus, porta ac consectetur ac, vestibulum at eros.*/}
+{/*Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,*/}
+{/*                    )*/}
+{/*                    .join('\n')}*/}
+{/*            </Box>*/}
 
         </Container>
 
