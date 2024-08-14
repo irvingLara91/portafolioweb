@@ -43,7 +43,7 @@ function HideOnScroll(props: Props) {
 }
 
 
-const Header = (props: Props) => {
+const Header = () => {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
