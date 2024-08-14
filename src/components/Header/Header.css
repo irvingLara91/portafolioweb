@@ -1,0 +1,26 @@
+.buttonCustom {
+    color: #d8e6fb;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.buttonCustom::before {
+    margin-left: auto;
+}
+
+.buttonCustom::after, .buttonCustom::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #1da6ea;
+    display: block;
+    transition: 0.5s;
+}
+
+.buttonCustom:hover::after, .buttonCustom:hover::before {
+    width: 100%;
+}
