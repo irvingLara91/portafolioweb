@@ -186,7 +186,7 @@ const Header = () => {
                     </Container>
                 </AppBar>
             </HideOnScroll>
-            <Toolbar/>
+            <Toolbar sx={{margin:2}}/>
         </React.Fragment>
     )
 }
