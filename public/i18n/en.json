@@ -3,5 +3,6 @@
     "label": "Select another language!",
     "about": "About me",
     "home": "Home",
-    "user": "My name is: {{name}}"
+    "user": "My name is: {{name}}",
+    "myProjects":"My Latest Projects"
 }
