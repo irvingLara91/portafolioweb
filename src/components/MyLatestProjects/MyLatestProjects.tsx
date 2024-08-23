@@ -29,7 +29,8 @@ const MyLatestProjects = () => {
 
     return (<Box sx={{display: 'flex', flexDirection: 'column', width: '100%', height: '100%',gap:5}}>
         <Box sx={{display: 'flex', flexDirection: 'column', width: '100%', alignItems: 'center'}}>
-            <CustomizedTypographyGradient text={t('myProjects')} fontFamily={"Roboto"} fontSize={{xs: 30, md: 40}}  style={{"--x": 0} as React.CSSProperties}/>
+            <CustomizedTypographyGradient text={t('myProjects')} fontFamily={"Roboto"} fontSize={{xs: 30, md: 40}}
+                                          />
         </Box>
         <Box
             sx={{
