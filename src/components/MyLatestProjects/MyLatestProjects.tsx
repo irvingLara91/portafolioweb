@@ -15,7 +15,7 @@ const CustomizedTypographyGradient = styled(({text = "hola", ...props}: Customiz
         {...props}
     >{text}</Typography>
 ))`
-    background: linear-gradient(90deg, ${props => props.color1}, ${props => props.color2} 51%, ${props => props.color1}) var(--x, 0)/50%;
+    background: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea) var(--x, 0)/200%;
     font-weight: 700;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -29,7 +29,7 @@ const MyLatestProjects = () => {
 
     return (<Box sx={{display: 'flex', flexDirection: 'column', width: '100%', height: '100%',gap:5}}>
         <Box sx={{display: 'flex', flexDirection: 'column', width: '100%', alignItems: 'center'}}>
-            <CustomizedTypographyGradient text={t('myProjects')} color2={"#0bd1d1"} fontFamily={"Roboto"} fontSize={{xs: 30, md: 40}} color1={"#0ea5ea"} style={{"--x": 0} as React.CSSProperties}/>
+            <CustomizedTypographyGradient text={t('myProjects')} fontFamily={"Roboto"} fontSize={{xs: 30, md: 40}}  style={{"--x": 0} as React.CSSProperties}/>
         </Box>
         <Box
             sx={{
