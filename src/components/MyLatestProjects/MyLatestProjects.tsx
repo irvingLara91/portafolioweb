@@ -30,10 +30,8 @@ const MyLatestProjects = () => {
 
     return (<Box sx={{display: 'flex', flexDirection: 'column', width: '100%', height: '100%',gap:5}}>
         <Box sx={{display: 'flex', flexDirection: 'column', width: '100%', alignItems: 'center'}}>
-            {/*<CustomizedTypographyGradient text={t('myProjects')} fontFamily={"Roboto"} fontSize={{xs: 30, md: 40}}
-                                          component="span"
-                                          />*/}
-            <CustomizedTypographyGradient variant="h4"  text={t('myProjects')}/>
+
+            <CustomizedTypographyGradient variant="h4"  text={t('myProjects')} fontSize={{xs: 30, md: 40}}/>
         </Box>
         <Box
             sx={{
