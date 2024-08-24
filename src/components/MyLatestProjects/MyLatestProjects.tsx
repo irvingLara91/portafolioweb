@@ -8,6 +8,7 @@ interface CustomizedTypographyGradientProps extends TypographyProps {
     text?: string;
 }
 
+// @ts-ignore
 const CustomizedTypographyGradient = styled(({ text = 'Hola', component = 'span', ...props }: CustomizedTypographyGradientProps) => (
     <Typography
         component={component}
