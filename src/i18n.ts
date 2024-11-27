@@ -4,7 +4,6 @@ import i18nBackend from "i18next-http-backend";
 import { initReactI18next } from 'react-i18next';
 import {useEffect} from "react";
 //const getCurrentHost = 'http://localhost:5173';
-
 const getCurrentHost = 'https://ilaraportafolio.netlify.app'
 
 

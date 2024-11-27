@@ -4,5 +4,8 @@
     "about": "Sobre mí",
     "home": "Inicio",
     "user": "Mi nombre es: {{name}}",
-    "myProjects": "Mis últimos proyectos"
+    "myProjects": "Mis últimos proyectos",
+    "allProjects":"TODOS LOS PROYECTOS",
+    "webDeveloper":"DESARROLLO WEB",
+    "mobileDeveloper":"APLICACIONES MOBILE"
 }

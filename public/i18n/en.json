@@ -4,5 +4,8 @@
     "about": "About me",
     "home": "Home",
     "user": "My name is: {{name}}",
-    "myProjects":"My Latest Projects"
+    "myProjects":"My Latest Projects",
+    "allProjects":"ALL PROJECTS",
+    "webDeveloper":"WEB DEVELOPER",
+    "mobileDeveloper":"MOBILE APP"
 }
