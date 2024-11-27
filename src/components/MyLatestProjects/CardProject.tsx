@@ -1,5 +1,5 @@
 import React from "react";
-import {Box, Card, CardContent, CardMedia, Grid} from "@mui/material";
+import {Box, Grid} from "@mui/material";
 import Typography from "@mui/material/Typography";
 
 
@@ -12,7 +12,7 @@ const CardProject: React.FC<CardProjectI> = ({data}) => {
     return (<Box sx={{width: '100%', display: 'flex', flexDirection: 'column', padding: 2}}>
         <Grid container spacing={2}>
             {
-                data && data.map((p, index) => {
+                data && data.map((p:any, index:number) => {
                     return (
                         <Grid item xs={12} sm={6} md={4} key={index}>
                             <Box sx={{
