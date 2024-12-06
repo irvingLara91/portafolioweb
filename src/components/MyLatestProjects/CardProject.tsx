@@ -9,13 +9,18 @@ interface CardProjectI {
 
 const CardProject: React.FC<CardProjectI> = ({data}) => {
 
+        const openNewTab = (url: string) => {
+            window.open(url, "_blank", "noopener,noreferrer");
+        };
+
+
     return (<Box sx={{width: '100%', display: 'flex', flexDirection: 'column', padding: 2}}>
         <Grid container spacing={2}>
             {
                 data && data.map((p:any, index:number) => {
                     return (
                         <Grid item xs={12} sm={6} md={4} key={index}>
-                            <Box sx={{
+                            <Box onClick={()=>{openNewTab(p.url)}} sx={{
                                 width:'100%',
                                 display:'flex',
                                 justifyContent:'center',
@@ -27,6 +32,7 @@ const CardProject: React.FC<CardProjectI> = ({data}) => {
 
                                 <Box
                                     sx={{
+                                        cursor:'pointer',
                                         position: 'relative',
                                         width: '100%',
                                         height: 300, // Altura fija de la tarjeta

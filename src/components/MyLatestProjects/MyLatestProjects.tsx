@@ -29,7 +29,22 @@ const CustomizedTypographyGradient = styled(({ text = 'Hola', component = 'span'
 
 const MyLatestProjects = () => {
     const {t}: any = useTranslation();
+
+    const [filterArray,setFilterArray]= useState(Projects_List)
+
     const [selected,setSelected]=useState('');
+
+
+
+    const filterByCategory = (type: string) => {
+        setSelected(type)
+        if (type === "allProjects") {
+            setFilterArray(Projects_List);
+        } else {
+            setFilterArray(Projects_List.filter((p) => p.type === type));
+        }
+    };
+
 
     return (<Box sx={{display: 'flex', flexDirection: 'column', width: '100%', height: '100%',gap:5}}>
         <Box sx={{display: 'flex', flexDirection: 'column', width: '100%', alignItems: 'center'}}>
@@ -76,7 +91,7 @@ const MyLatestProjects = () => {
                                 borderRadius:10,
                                 border:' 2px solid #0ea5ea',
                                 color: "#fff",
-                                background: selected ===item.name? "linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea) 0 / 200%": 'transparent',
+                                background: selected ===item.key? "linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea) 0 / 200%": 'transparent',
                                 padding: "10px 15px",
                                 lineHeight: "20px",
                                 fontSize:{xs:'12px',sm:'14px',md:'16px'},
@@ -91,7 +106,7 @@ const MyLatestProjects = () => {
 
 
                         }}
-                            onClick={() => setSelected(item.name)}
+                            onClick={() => filterByCategory(item.key)}
                         >
                             {t(`${item.key}`)}
                         </Button>
@@ -101,7 +116,7 @@ const MyLatestProjects = () => {
         </Box>
 
         <Box sx={{width:'100%',display:'flex',flexDirection:'column'}}>
-            <CardProject data={Projects_List} />
+            <CardProject data={filterArray} />
         </Box>
     </Box>)
 }

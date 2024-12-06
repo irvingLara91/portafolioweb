@@ -11,12 +11,11 @@ export const LIST_OPTIONS = [{name: "All Projects", key: "allProjects"}, {
 export const Projects_List = [
     {
         id: 1,
-        title: "Upmy",
-        description: "Tu propia tienda online:" +
-            "app,web y whats. Toma el control de tu servicio.",
-        image: "https://yt3.googleusercontent.com/ytc/AIdro_lJFo__6RFy_sRjarGNV1m5qAaNitZnb24X0SZESFSQcg=s900-c-k-c0x00ffffff-no-rj",
-        type: "mobile",
-        url: "https://www.upmy.co"
+        title: "Upmy Huaya mx",
+        description: "Tu propia app para tu tienda toma el control de tu servicio.",
+        image: "https://play-lh.googleusercontent.com/D-UKyivTRoOnsrbrcH1B8ahOf2thkm8gYkjrflIgejYAvIyyqmdlZq7l3Idlz6f_PA=w240-h480-rw",
+        type: "mobileDeveloper",
+        url: "https://play.google.com/store/apps/details?id=com.itnovare.huayamx"
     },
 
     {
@@ -25,47 +24,36 @@ export const Projects_List = [
         description: "Tu propia tienda online:" +
             "app,web y whats. Toma el control de tu servicio.",
         image: "https://yt3.googleusercontent.com/ytc/AIdro_lJFo__6RFy_sRjarGNV1m5qAaNitZnb24X0SZESFSQcg=s900-c-k-c0x00ffffff-no-rj",
-        type: "web",
+        type: "webDeveloper",
         url: "https://www.upmy.co"
     },
 
-    {
-        id: 3,
-        title: "Upmy",
-        description: "Tu propia tienda online:" +
-            "app,web y whats. Toma el control de tu servicio.",
-        image: "https://yt3.googleusercontent.com/ytc/AIdro_lJFo__6RFy_sRjarGNV1m5qAaNitZnb24X0SZESFSQcg=s900-c-k-c0x00ffffff-no-rj",
-        type: "mobile",
-        url: "https://www.upmy.co"
-    },
+
 
     {
         id: 4,
-        title: "Upmy",
-        description: "Tu propia tienda online:" +
-            "app,web y whats. Toma el control de tu servicio.",
-        image: "https://yt3.googleusercontent.com/ytc/AIdro_lJFo__6RFy_sRjarGNV1m5qAaNitZnb24X0SZESFSQcg=s900-c-k-c0x00ffffff-no-rj",
-        type: "web",
-        url: "https://www.upmy.co"
+        title: "Amenity",
+        description: "Es un sitio web para  dar beneficios a sus clientes",
+        image: "https://amenityapp.netlify.app/assets/mockupPhoneSplash2-0ecec0b4.png?w=564&h=564&fit=crop&auto=format&dpr=1",
+        type: "webDeveloper",
+        url: "https://amenityapp.netlify.app"
     },
 
     {
         id: 5,
-        title: "Upmy",
-        description: "Tu propia tienda online:" +
-            "app,web y whats. Toma el control de tu servicio.",
-        image: "https://yt3.googleusercontent.com/ytc/AIdro_lJFo__6RFy_sRjarGNV1m5qAaNitZnb24X0SZESFSQcg=s900-c-k-c0x00ffffff-no-rj",
-        type: "mobile",
-        url: "https://www.upmy.co"
+        title: "kikert",
+        description: "Simplifica la gestión de tu taller.",
+        image: "https://kikert.com/assets/img/graphic_aplicacion.png",
+        type: "webDeveloper",
+        url: "https://kikert.com"
     },
     {
         id: 6,
-        title: "Upmy",
-        description: "Tu propia tienda online:" +
-            "app,web y whats. Toma el control de tu servicio.",
-        image: "https://yt3.googleusercontent.com/ytc/AIdro_lJFo__6RFy_sRjarGNV1m5qAaNitZnb24X0SZESFSQcg=s900-c-k-c0x00ffffff-no-rj",
-        type: "web",
-        url: "https://www.upmy.co"
+        title: "Compartamos dev",
+        description: "Seguros magenta protege tu vehículo.",
+        image: "https://inter-compartamos-dev.web.app/assets/person-BBNmjVxb.svg",
+        type: "webDeveloper",
+        url: "https://inter-compartamos-dev.web.app/"
     },
 
 
