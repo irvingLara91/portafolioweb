@@ -56,5 +56,16 @@ export const Projects_List = [
         url: "https://inter-compartamos-dev.web.app/"
     },
 
+    {
+        id: 6,
+        title: "CRUD para macropay",
+        description: "un crud para la empresa macropay",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHp_bHAZQjQNlHr99c9HYQzMABFMoCuXtIA&s",
+        type: "webDeveloper",
+        url: "https://macropay-crud.netlify.app"
+    },
+
+
+
 
 ]
