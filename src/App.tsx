@@ -1,4 +1,3 @@
-import React from "react";
 import './App.css';
 import RouterApp from "../src/routes/RouterApp.tsx";
 import { Container, Box } from "@mui/material";
