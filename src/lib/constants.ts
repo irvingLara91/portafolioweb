@@ -31,7 +31,7 @@ export const Projects_List = [
 
 
     {
-        id: 4,
+        id: 3,
         title: "Amenity",
         description: "Es un sitio web para  dar beneficios a sus clientes",
         image: "https://amenityapp.netlify.app/assets/mockupPhoneSplash2-0ecec0b4.png?w=564&h=564&fit=crop&auto=format&dpr=1",
@@ -40,7 +40,7 @@ export const Projects_List = [
     },
 
     {
-        id: 5,
+        id: 4,
         title: "kikert",
         description: "Simplifica la gestión de tu taller.",
         image: "https://kikert.com/assets/img/graphic_aplicacion.png",
@@ -48,7 +48,7 @@ export const Projects_List = [
         url: "https://kikert.com"
     },
     {
-        id: 6,
+        id: 5,
         title: "Compartamos dev",
         description: "Seguros magenta protege tu vehículo.",
         image: "https://inter-compartamos-dev.web.app/assets/person-BBNmjVxb.svg",
@@ -65,7 +65,12 @@ export const Projects_List = [
         url: "https://macropay-crud.netlify.app"
     },
 
-
-
-
 ]
+
+export const eventScrollDown = (section: string = "section-planes", pos: "center" | "end" | "nearest" | "start" = "start") => {
+    const element = document.getElementById(section);
+    if (element) {
+        element.scrollIntoView({behavior: 'smooth', block: pos});
+    }
+};
+
