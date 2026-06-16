@@ -2,7 +2,6 @@ import { Box, Typography, Grid, Paper } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { styled } from '@mui/material/styles';
 import 'animate.css';
-import React from "react";
 
 const ServicePaper = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(4),
