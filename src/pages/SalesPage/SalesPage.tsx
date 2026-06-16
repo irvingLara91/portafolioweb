@@ -6,6 +6,7 @@ const SalesPage = () => {
     const { t } = useTranslation();
 
     return (
+
         <Box sx={{ py: 8, color: 'white' }}>
             <Container>
                 <Typography variant="h2" align="center" gutterBottom sx={{ fontWeight: 'bold' }}>
